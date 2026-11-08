@@ -15,3 +15,14 @@ provisiones_disponibles = int(input("Provisiones disponibles al llegar al destin
 puntos_cientificos = 0
 actividades_realizadas = 0
 muestras_recolectadas = 0
+
+seguir_explorando = True
+
+while seguir_explorando:
+    print("1. Analizar terreno")
+    print("2. Recolectar muestra")
+    print("3. Realizar observación")
+    print("4. Finalizar exploración")
+    opcion = int(input("Seleccione una actividad: "))
+
+    
